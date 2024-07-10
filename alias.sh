@@ -18,4 +18,7 @@ alias updBAS='source $HOME/InitBAS/init.sh; updmac'
 alias cal='cal -y -w -m'
 alias nomachine='/usr/NX/bin/nxplayer & disown' #for the program itself
 alias nomachines='/usr/NX/bin/nxclient -admin & disown' #– for the “service” monitor
+# Change shell
+alias chsb='chsh -s /bin/bash'
+alias chsz='chsh -s /bin/zsh'
 
