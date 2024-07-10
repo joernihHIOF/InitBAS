@@ -1,0 +1,15 @@
+alacritty
+brave-browser
+chatgpt-shell-cli
+kitty
+neovim
+nomachine
+qtile
+quarto-cli
+r
+ranger
+signal-desktop
+lite-xl
+rstudio-desktop-bin
+pinta
+
