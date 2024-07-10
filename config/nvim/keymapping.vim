@@ -48,7 +48,7 @@ map seb  :e ~/InitBAS/config/bash/bashrc<CR>
 map sez  :e ~/InitBAS/config/zsh/zshrc<CR>
 map seq  :e ~/InitBAS/config/qtile/config.py<CR> 
 map sek  :e ~/InitBAS/kitty/kitty.conf<CR>
-map sew  :e ~/InitBAS/hyprland/hyprland.conf<CR>
+map sew  :e ~/InitBAS/config/hyprland/hyprland.conf<CR>
 map sec  :e ~/InitBAS/README.md<CR>
 map kmp  :e ~/InitBAS/config/nvim/keymapping.vim<CR>
 
