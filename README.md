@@ -24,5 +24,6 @@
 # config/nvim/init.vim
 # alias.sh
 # functions.sh
-
 # InitBAS
+
+
