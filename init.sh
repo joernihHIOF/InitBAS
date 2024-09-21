@@ -19,9 +19,9 @@ symlin() {
 updmac() {
 	config
 	pacman
-	plinst
-	webclo
-	symlin
+	#plinst
+	#webclo
+	#symlin
 }
 
-
+:

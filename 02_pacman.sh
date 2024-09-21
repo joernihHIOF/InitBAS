@@ -14,9 +14,21 @@ PROGRAM_NAME="hyprland"
 file="$HOME/.config/hyprlan"                                                             
 if [ -f "$file" ]; then                                                                          
   echo "$PROGRAM_NAME is not installed. Proceeding with the installation..."
+# II
+fileh="$HOME/.config/hyprland"
+if [ ! -d "$fileh" ]; then
+  echo "Hyprland is already installed."
+else
+  echo "Hyprland is not installed. Proceeding with the installation..."
   bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
-else                                                                                             
-    echo "false"                                                                                 
-  fi                                                                                                                                       
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+# III
+filez="$HOME/.oh-my-zsh/oh-my-zsh.sh"
+if [ ! -f "$filez" ]; then
+  echo "Oh My Zsh is already installed."
+else
+  echo "$PROGRAM_NAME is not installed. Proceeding with the installation..."
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
 
