@@ -5,13 +5,3 @@ source $HOME/InitBAS/init.sh
 source $HOME/InitBAS/functions.sh
 source $HOME/InitBAS/alias.sh
 
-bind 'set show-all-if-ambiguous on'
-bind 'TAB:menu-complete'
-
-
-xset b off
-# setterm -blength 0
-
-if [ -f /etc/bash_completion ]; then                                                                              
-    . /etc/bash_completion                                                                                        
-fi                                                                                                                
