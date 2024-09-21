@@ -41,7 +41,6 @@ audit
 autoconf
 automake
 avahi
-b43-fwcutter
 baloo
 baloo-widgets
 base
@@ -1210,7 +1209,6 @@ xvidcore
 xxhash
 xz
 yakuake
-yay
 zbar
 zeromq
 zimg
