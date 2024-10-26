@@ -25,10 +25,10 @@ tnoremap <A-j> <C-\><C-n><C-w>j
 tnoremap <A-k> <C-\><C-n><C-w>k
 tnoremap <A-l> <C-\><C-n><C-w>l
 
-map ta :belowright split term://zsh<cr><S-A>
-map te :vsplit term://zsh<cr><S-A>
-map tA :belowright split term://bash<cr><S-A>
-map tA :vsplit term://bash<cr><S-A>
+map tA :belowright split term://zsh<cr><S-A>
+map ta :belowright split term://bash<cr><S-A>
+map te :split term://bash<cr><S-A>
+map tE :vsplit term://zsh<cr><S-A>
 map ww :w<cr>
 map wq :w<CR>:q<CR> 
 map wa :wqall!<CR>
