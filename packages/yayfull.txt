@@ -1,3 +1,4 @@
+arp-scan
 alacritty
 brave-browser
 chatgpt-shell-cli
@@ -13,4 +14,3 @@ lite-xl
 rstudio-desktop-bin
 pinta
 pulseaudio
-arp-scan
