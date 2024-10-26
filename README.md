@@ -13,6 +13,8 @@
 # alias.sh
 # functions.sh
 
+
+
 # packages/pckfull.txt
 # packages/yayfull.txt
 # packages/rpkbase.txt
