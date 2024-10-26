@@ -13,8 +13,6 @@
 # alias.sh
 # functions.sh
 
-
-
 # packages/pckfull.txt
 # packages/yayfull.txt
 # packages/rpkbase.txt
@@ -27,15 +25,5 @@
 # 05_symlin.sh
 # init.sh
 
-# packages/pckfull.txt
-# packages/yayfull.txt
-# packages/rpkbase.txt
-
-# config/bash/bashrc
-# config/zsh/zshrc
-# config/hyprland/hyprland.conf
-# config/nvim/init.vim
-# alias.sh
-# functions.sh
 
 
