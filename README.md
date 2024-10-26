@@ -1,4 +1,5 @@
 # BAS
+
 # ~/.environBAS
 # sudo pacman -S openssh 
 # sudo systemctl enable sshd.service
@@ -17,13 +18,10 @@
 # packages/yayfull.txt
 # packages/rpkbase.txt
 
-# init.sh
 # 01_config.sh
 # 02_pacman.sh
 # 03_plinst.R
 # 04_webclo.sh
 # 05_symlin.sh
 # init.sh
-
-
 
