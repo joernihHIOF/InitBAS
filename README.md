@@ -5,8 +5,6 @@
 # sudo systemctl start sshd.service
 # alias updBAS='source $HOME/InitBAS/init.sh' 
 
-<<<<<<< HEAD
-=======
 # config/bash/bashrc
 # config/zsh/zshrc
 # config/hyprland/hyprland.conf
@@ -18,7 +16,6 @@
 # packages/pckfull.txt
 # packages/yayfull.txt
 # packages/rpkbase.txt
->>>>>>> ad81bcc090785789f50011b9217fdb59829cb5fc
 
 # init.sh
 # 01_config.sh
@@ -26,7 +23,6 @@
 # 03_plinst.R
 # 04_webclo.sh
 # 05_symlin.sh
-<<<<<<< HEAD
 # init.sh
 
 # packages/pckfull.txt
@@ -39,7 +35,5 @@
 # config/nvim/init.vim
 # alias.sh
 # functions.sh
-=======
->>>>>>> ad81bcc090785789f50011b9217fdb59829cb5fc
 
 
