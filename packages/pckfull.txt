@@ -1223,3 +1223,4 @@ zsh-theme-powerlevel10k
 zstd
 zvbi
 zxing-cpp
+arp-scan
