@@ -897,11 +897,6 @@ perl-xml-writer
 phonon-qt6
 phonon-qt6-vlc
 pinentry
-pipewire
-pipewire-alsa
-pipewire-audio
-pipewire-pulse
-pipewire-session-manager
 pixman
 pkcs11-helper
 pkgconf
