@@ -52,4 +52,6 @@ map sew  :e ~/InitBAS/config/hyprland/hyprland.conf<CR>
 map sec  :e ~/InitBAS/README.md<CR>
 map kmp  :e ~/InitBAS/config/nvim/keymapping.vim<CR>
 
+map gco :e .git/config<CR>
+map ee :e
 
