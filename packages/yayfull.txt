@@ -13,3 +13,4 @@ lite-xl
 rstudio-desktop-bin
 pinta
 pulseaudio
+arp-scan
