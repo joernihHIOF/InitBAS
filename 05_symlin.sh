@@ -6,6 +6,5 @@ ln -sf $HOME/InitBAS/config/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/InitBAS/config/nvim/init.vim $HOME/.config/nvim/init.vim
 ln -sf $HOME/InitBAS/config/r/Rprofile $HOME/.Rprofile
 ln -sf $HOME/InitBAS/config/r/Renviron $HOME/.Renviron
-ln -sf $HOME/InitBAS/config/qtile/config.py $HOME/.config/qtile/config.py
 ln -sf $HOME/InitBAS/config/hyprland/hyprland.conf $HOME/.config/hypr/hyprland.conf
 

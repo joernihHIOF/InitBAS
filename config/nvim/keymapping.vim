@@ -38,7 +38,6 @@ map cs :source ~/InitBAS/config/nvim/init.vim<cr>
 map cp :let @+ = expand('%:p')<CR>
 map cp1 :let @+ = expand('%')<CR>
 
-
 map ser1 :e ~/InitBAS/config/r/Rprofile<CR>                         
 map ser2 :e ~/InitBAS/config/r/Renviron<CR>
 map sea  :e ~/InitBAS/alias.sh<CR>

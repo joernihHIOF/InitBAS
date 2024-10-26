@@ -18,5 +18,3 @@ if [ ! -e ~/.environBAS ]; then
     touch ~/.environBAS
 fi
 
-
-
