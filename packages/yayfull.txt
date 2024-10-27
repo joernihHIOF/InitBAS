@@ -13,7 +13,8 @@ signal-desktop
 lite-xl
 rstudio-desktop-bin
 pinta
-pulseaudio
+arp-scan
 perplexity-ai-app
+
  
  

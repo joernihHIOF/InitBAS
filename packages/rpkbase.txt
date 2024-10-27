@@ -1,3 +1,5 @@
 devtools
 dplyr
 ggplot2
+readr
+reticulate

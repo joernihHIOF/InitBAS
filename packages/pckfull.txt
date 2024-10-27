@@ -1,3 +1,5 @@
+arp-scan
+perplexity-ai-app
 aalib
 abseil-cpp
 accounts-qml-module
@@ -1218,4 +1220,3 @@ zsh-theme-powerlevel10k
 zstd
 zvbi
 zxing-cpp
-arp-scan
