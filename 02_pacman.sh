@@ -1,7 +1,7 @@
 #!/bin/bash
-#sudo pacman -Syu --noconfirm
-#sudo pacman -S --needed base-devel --noconfirm
-#sudo pacman -S yay --needed --noconfirm
+sudo pacman -S --needed base-devel --noconfirm
+sudo pacman -Syu --noconfirm
+sudo pacman -S yay --needed --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 # I
