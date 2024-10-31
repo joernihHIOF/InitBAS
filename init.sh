@@ -24,4 +24,3 @@ updmac() {
 	symlin
 }
 
-:
