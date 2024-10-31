@@ -16,3 +16,5 @@ pinta
 arp-scan
 perplexity-ai-app
 github-cli 
+obsidian
+
