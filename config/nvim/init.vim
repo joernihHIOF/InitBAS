@@ -30,4 +30,3 @@ map rs :RSTOP<cr>
 let R_debug = 0
 let R_assign = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-source $HOME/InitBAS/config/nvim/keymapping.vim
