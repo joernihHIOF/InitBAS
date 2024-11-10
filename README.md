@@ -25,5 +25,8 @@
 # 05_symlin.sh
 # init.sh
 
+# Nomachine
 
+# /usr/NX/etc/server.cfg
+# /usr/NX/etc/node.cfg
 
