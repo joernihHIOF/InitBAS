@@ -1,9 +1,9 @@
 #!/bin/bash
 sudo pacman -S --needed base-devel --noconfirm
-#sudo pacman -Syu --noconfirm
-#sudo pacman -S yay --needed --noconfirm
-#sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/nulljkj
-#yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
+sudo pacman -Syu --noconfirm
+sudo pacman -S yay --needed --noconfirm
+yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
+sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/nulljkj
 ## I
 echo 'hyprland'
 if [ ! -d "$fileh" ]; then
