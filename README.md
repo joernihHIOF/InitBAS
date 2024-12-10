@@ -1,5 +1,4 @@
 # BAS
-
 # ~/.environBAS
 # sudo pacman -S openssh 
 # sudo systemctl enable sshd.service
