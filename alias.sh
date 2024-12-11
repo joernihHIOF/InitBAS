@@ -26,3 +26,5 @@ alias lscan='sudo arp-scan --localnet'
 alias ipi='ip route get 1 | awk "{print \$7}"'
 alias ipe='curl -4 icanhazip.com'
 
+alias cedu='nmcli d wifi connect eduroam' # Mobil
+
