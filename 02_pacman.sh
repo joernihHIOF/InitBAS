@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo pacman -Sy archlinux-keyring manjaro-keyring
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S yay --needed --noconfirm
