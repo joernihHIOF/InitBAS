@@ -4,7 +4,8 @@ filetype off                  " required
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set noswapfile
 set number
-set clipboard+=unnamedplus
+" set clipboard+=unnamedplus
+set clipboard=unnamedplus
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
 set tags=./.non_existent_tags
