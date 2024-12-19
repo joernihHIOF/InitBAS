@@ -18,10 +18,10 @@
 # packages/rpkbase.txt
 
 # 01_config.sh
-# 02_pacman.sh
-# 03_plinst.R
-# 04_webclo.sh
-# 05_symlin.sh
+# 02_symlin.sh
+# 03_pacman.sh
+# 04_plinst.R
+# 05_webclo.sh
 # init.sh
 
 # Nomachine
