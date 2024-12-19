@@ -1,5 +1,3 @@
-arp-scan
-perplexity-ai-app
 aalib
 abseil-cpp
 accounts-qml-module
@@ -33,6 +31,7 @@ archlinux-keyring
 argon2
 aribb24
 ark
+arp-scan
 at-spi2-core
 atkmm
 attica
@@ -896,6 +895,7 @@ perl-uri
 perl-www-robotrules
 perl-xml-parser
 perl-xml-writer
+perplexity-ai-app
 phonon-qt6
 phonon-qt6-vlc
 pinentry
@@ -1066,6 +1066,7 @@ sshfs
 startup-notification
 stoken
 sudo
+sudo pacman -S tlp
 svt-av1
 svt-hevc
 syndication
@@ -1089,6 +1090,7 @@ thin-provisioning-tools
 threadweaver
 timeshift
 timeshift-autosnap-manjaro
+tlp
 tomlplusplus
 tpm2-tss
 tracker3
