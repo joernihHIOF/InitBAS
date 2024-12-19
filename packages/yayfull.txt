@@ -18,5 +18,6 @@ r
 ranger
 rstudio-desktop-bin
 signal-desktop
+wl-clipboard
 xclip
 xsel
