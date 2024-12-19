@@ -28,6 +28,3 @@
 # /usr/NX/etc/node.cfg
 # /usr/NX/etc/server.cfg
 
-
-
-

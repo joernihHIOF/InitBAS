@@ -6,7 +6,7 @@ sudo pacman -S yay --needed --noconfirm
 yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/nulljkj
 ## I
-echo 'hyprland'
+fileh="$HOME/.config/hypr"                                                             
 if [ ! -d "$fileh" ]; then
   echo "Hyprland is not installed. Proceeding with the installation..."
   #bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
