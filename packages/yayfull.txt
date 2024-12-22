@@ -4,6 +4,7 @@ arp-scan
 brave-browser
 chatgpt-shell-cli
 github-cli 
+gnome-boxes
 kitty
 lite-xl
 neovim
