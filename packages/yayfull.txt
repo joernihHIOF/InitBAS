@@ -22,3 +22,4 @@ signal-desktop
 wl-clipboard
 xclip
 xsel
+xorg-xrandr
