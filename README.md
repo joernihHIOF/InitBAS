@@ -2,7 +2,8 @@
 # sudo pacman -S openssh 
 # sudo systemctl enable sshd.service
 # sudo systemctl start sshd.service
-# ~/.environBAS
+# copy ~/.environBAS
+# source ~/InitBAS/init.sh
 
 # 01_config.sh
 # 02_symlin.sh
