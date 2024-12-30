@@ -5,6 +5,12 @@ brave-browser
 chatgpt-shell-cli
 github-cli 
 gnome-boxes
+hyprcursor
+hyprland
+hyprlang
+hyprlock
+hyprpaper
+hyprshot
 kitty
 lite-xl
 neovim
