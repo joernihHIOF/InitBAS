@@ -1222,3 +1222,4 @@ zsh-theme-powerlevel10k
 zstd
 zvbi
 zxing-cpp
+python-sympy
