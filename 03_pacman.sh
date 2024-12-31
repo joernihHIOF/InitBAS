@@ -9,7 +9,7 @@ sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.t
 fileh="$HOME/.config/hypr"                                                             
 if [ ! -d "$fileh" ]; then
   echo "Hyprland is not installed. Proceeding with the installation..."
-  #bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
+  bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
 else
   echo "Hyprland is already installed."
 ## II
