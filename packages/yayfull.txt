@@ -5,6 +5,7 @@ arp-scan
 bash
 bash-completion
 brave-browser
+calibre
 chatgpt-shell-cli
 github-cli 
 gnome-boxes
