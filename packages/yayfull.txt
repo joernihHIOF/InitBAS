@@ -30,3 +30,4 @@ wl-clipboard
 xclip
 xorg-xrandr
 xsel
+libreoffice-fresh
