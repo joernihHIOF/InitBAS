@@ -1,4 +1,5 @@
 alacritty
+amule
 arp-scan
 arp-scan
 brave-browser
