@@ -23,6 +23,8 @@ let maplocalleader = ','
 call plug#begin('~/.vim/plugged')
 	Plug 'jalvesaq/Nvim-R'
 	Plug 'gaalcaras/ncm-R'
+        Plug 'patstockwell/vim-monokai-tasty'
+        Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
 call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " R configurations

@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# Old
 killall hyprpaper
 sleep 1
 hyprpaper &
