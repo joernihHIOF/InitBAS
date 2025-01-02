@@ -28,3 +28,4 @@ alias ipe='curl -4 icanhazip.com'
 
 alias cedu='nmcli d wifi connect eduroam' # Mobil
 
+alias hcmd="hyprctl keyword monitor 'eDP-1,disable'"

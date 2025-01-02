@@ -12,7 +12,7 @@ clone_if_not_exists() {
     fi
 }
 
-clone_if_not_exists "https://github.com/makccr/wallpapers" "$HOME/.config/wallpapers2/*"
+clone_if_not_exists "https://github.com/makccr/wallpapers" "$HOME/.config/wallpapers/github"
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
