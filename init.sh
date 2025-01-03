@@ -4,17 +4,17 @@
 config() {
     source $HOME/InitBAS/01_config.sh
 }
-symlin() {
-    source $HOME/InitBAS/02_symlin.sh
-}
 pacman() {
-    source $HOME/InitBAS/03_pacman.sh
+    source $HOME/InitBAS/02_pacman.sh
 }
 plinst() {
-    Rscript $HOME/InitBAS/04_plinst.R
+    Rscript $HOME/InitBAS/03_plinst.R
 }
 webclo() {
-    source $HOME/InitBAS/05_webclo.sh
+    source $HOME/InitBAS/04_webclo.sh
+}
+symlin() {
+    source $HOME/InitBAS/05_symlin.sh
 }
 updmac() {
 	config
