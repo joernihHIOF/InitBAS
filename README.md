@@ -20,6 +20,8 @@
 # config/hyprland/hyprland.conf
 # config/hyprland/hyprpaper.conf
 # config/hyprland/reload-hyprpaper.sh
+# config/hyprland/config.ini
+
 # config/nvim/init.vim
 # config/nvim/keymapping.vim
 # /usr/NX/etc/node.cfg
