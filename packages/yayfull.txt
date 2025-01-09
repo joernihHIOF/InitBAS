@@ -5,7 +5,7 @@ arp-scan
 bash
 bash-completion
 bookworm
-brave-browser
+brave-bin
 calibre
 chatgpt-shell-cli
 github-cli 
