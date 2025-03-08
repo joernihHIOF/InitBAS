@@ -36,3 +36,4 @@ wl-clipboard
 xclip
 xorg-xrandr
 xsel
+zen-browser
