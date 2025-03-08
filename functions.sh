@@ -12,4 +12,11 @@ function gitp() {
     git checkout $(git log --pretty=format:"%h%x09%an%x09%ad%x09%s" | fzf | cut -c 1-8)
 }
 
+function fins(){
+  find . -name "$1"
+}
+
+function wins(){ 
+  grep -r "$1" .
+}
 
