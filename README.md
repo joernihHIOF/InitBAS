@@ -1,4 +1,4 @@
-# BAS
+ BAS
 # sudo pacman -S openssh 
 # sudo systemctl enable sshd.service
 # sudo systemctl start sshd.service
@@ -30,4 +30,4 @@
 # /usr/NX/etc/node.cfg
 # /usr/NX/etc/server.cfg
 
-
+# Errors: yay-git
