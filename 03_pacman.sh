@@ -22,4 +22,37 @@ if [ ! -f "$filez" ]; then
 else
   echo "Oh My Zsh is already installed."
 fi
+#!/bin/bash
+
+# Function to check if a package is installed
+is_installed() {
+    pacman -Qi "$1" &> /dev/null
+    return $?
+}
+
+# Check if Yay is already installed
+if is_installed "yay"; then
+    echo "Yay is already installed."
+else
+    echo "Yay is not installed. Proceeding with installation..."
+
+    # Clone Yay repository
+    git clone https://aur.archlinux.org/yay.git
+    # Navigate to Yay directory
+    cd yay
+    # Build and install Yay
+    makepkg -si --noconfirm
+
+    # Clean up
+    cd ..
+    rm -rf yay
+
+    # Verify Yay installation
+    if is_installed "yay"; then
+        echo "Yay has been successfully installed!"
+    else
+        echo "Yay installation failed."
+    fi
+fi
+
 

@@ -1,4 +1,4 @@
-# BAS
+ BAS
 # sudo pacman -S openssh 
 # sudo systemctl enable sshd.service
 # sudo systemctl start sshd.service
@@ -30,5 +30,9 @@
 # /usr/NX/etc/node.cfg
 # /usr/NX/etc/server.cfg
 
+<<<<<<< HEAD
 # sudo pacman -S bluez bluez-utils
 # yay -S zen-browser-bin
+=======
+# Errors: yay-git
+>>>>>>> 99cbd16407a32b8cd6f0dbec2b0f392e09b26bb6

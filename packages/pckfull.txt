@@ -173,6 +173,7 @@ gettext
 ghostscript
 giflib
 git
+github-cli
 glib-networking
 glib2
 glibc
@@ -965,6 +966,7 @@ python-pyqt5-sip
 python-pysmbc
 python-reportlab
 python-requests
+python-sympy
 python-urllib3
 python-wheel
 python-yaml
@@ -1222,4 +1224,3 @@ zsh-theme-powerlevel10k
 zstd
 zvbi
 zxing-cpp
-python-sympy

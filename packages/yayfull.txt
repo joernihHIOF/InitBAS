@@ -10,6 +10,7 @@ calibre
 chatgpt-shell-cli
 github-cli 
 gnome-boxes
+gnome-screenshot
 hyprcursor
 hyprland
 hyprlang
@@ -32,6 +33,7 @@ r
 ranger
 rstudio-desktop-bin
 signal-desktop
+signal-desktop-beta
 wl-clipboard
 xclip
 xorg-xrandr
