@@ -30,4 +30,5 @@
 # /usr/NX/etc/node.cfg
 # /usr/NX/etc/server.cfg
 
-
+# sudo pacman -S bluez bluez-utils
+# yay -S zen-browser-bin

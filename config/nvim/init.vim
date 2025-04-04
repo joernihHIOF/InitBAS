@@ -22,6 +22,7 @@ let maplocalleader = ','
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 	Plug 'jalvesaq/Nvim-R'
+        Plug 'lambdalisue/suda.vim'
 	Plug 'gaalcaras/ncm-R'
         Plug 'patstockwell/vim-monokai-tasty'
         Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
