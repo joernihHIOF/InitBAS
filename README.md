@@ -6,6 +6,7 @@
 # ~/.environBAS
 # source ~/InitBAS/init.sh
 
+# arch.sh
 # 01_config.sh
 # 02_symlin.sh
 # 03_pacman.sh
