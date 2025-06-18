@@ -53,4 +53,5 @@ map kmp  :e ~/InitBAS/config/nvim/keymapping.vim<CR>
 
 map gco :e .git/config<CR>
 map ee :e
-
+map fmr:  terminal ranger<CR>
+" Missing fmr

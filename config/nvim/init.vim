@@ -37,3 +37,6 @@ let R_assign = 0
 " Keymapping
 source $HOME/InitBAS/config/nvim/keymapping.vim
 let g:nvim_r_indent = 2  
+
+
+
