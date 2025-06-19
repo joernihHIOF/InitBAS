@@ -9,3 +9,5 @@ station <device> scan
 station <device> get-networks
 station <device> connect <ssid>
 station <device> show 
+wget https://raw.githubusercontent.com/joernihHIOF/InitBAS/refs/heads/main/user_configuration.json
+wget https://raw.githubusercontent.com/joernihHIOF/InitBAS/refs/heads/main/user_credentials.json
