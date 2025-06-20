@@ -6,9 +6,6 @@
     "bootloader": "Grub",
     "custom_commands": [],
     "disk_config": {
-        "btrfs_options": {
-            "snapshot_config": null
-        },
         "config_type": "default_layout",
         "device_modifications": [
             {
@@ -110,12 +107,18 @@
     ],
     "parallel_downloads": 0,
     "profile_config": {
-        "gfx_driver": null,
-        "greeter": null,
+        "gfx_driver": "All open-source",
+        "greeter": "sddm",
         "profile": {
-            "custom_settings": {},
-            "details": [],
-            "main": "Minimal"
+            "custom_settings": {
+                "Hyprland": {
+                    "seat_access": "polkit"
+                }
+            },
+            "details": [
+                "Hyprland"
+            ],
+            "main": "Desktop"
         }
     },
     "services": [],
