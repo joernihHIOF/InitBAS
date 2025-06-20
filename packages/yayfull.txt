@@ -7,7 +7,7 @@ r
 #bash
 bash-completion
 #bookworm
-#brave-browser
+brave-browser
 #calibre
 chatgpt-shell-cli
 #ghostwriter
@@ -40,4 +40,4 @@ ranger
 #xclip
 #xorg-xrandr
 #xsel
-#zen-browser
+zen-browser
