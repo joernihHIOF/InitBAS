@@ -40,4 +40,4 @@ ranger
 #xclip
 #xorg-xrandr
 #xsel
-zen-browser
+zen-browser-bin
