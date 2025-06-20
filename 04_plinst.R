@@ -10,11 +10,12 @@ print(library_path)
 if (!dir.exists(library_path)) {                                                                          
   dir.create(library_path, recursive = TRUE)                                                              
 }                                                                                                         
-for (package in rpack) {                                          
-  if (!(package %in% rownames(installed.packages()))) {              
-    install.packages(package)
-  }                                                                  
-}                                                                    
-
+#  'lib = "/usr/lib/R/library"' is not writable
+#for (package in rpack) {                                          
+#  if (!(package %in% rownames(installed.packages()))) {              
+#    install.packages(package)
+#  }                                                                  
+#}                                                                    
+#
 # py_install("numba")
 
