@@ -4,6 +4,36 @@ sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -S yay --needed --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
+
+## Check if Yay is already installed
+if is_installed "yay"; then
+    echo "Yay is already installed."
+else
+    echo "Yay is not installed. Proceeding with installation..."
+
+    # Clone Yay repository
+    git clone https://aur.archlinux.org/yay.git
+    # Navigate to Yay directory
+    cd yay
+    # Build and install Yay
+    makepkg -si --noconfirm
+
+    # Clean up
+    cd ..
+    rm -rf yay
+
+    # Verify Yay installation
+    if is_installed "yay"; then
+        echo "Yay has been successfully installed!"
+    else
+        echo "Yay installation failed."
+    fi
+fi
+#
+
+
+
+
 yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 
 ### I
@@ -15,31 +45,6 @@ else
   echo "Hyprland is already installed."
 fi
 
-## Check if Yay is already installed
-#if is_installed "yay"; then
-#    echo "Yay is already installed."
-#else
-#    echo "Yay is not installed. Proceeding with installation..."
-#
-#    # Clone Yay repository
-#    git clone https://aur.archlinux.org/yay.git
-#    # Navigate to Yay directory
-#    cd yay
-#    # Build and install Yay
-#    makepkg -si --noconfirm
-#
-#    # Clean up
-#    cd ..
-#    rm -rf yay
-#
-#    # Verify Yay installation
-#    if is_installed "yay"; then
-#        echo "Yay has been successfully installed!"
-#    else
-#        echo "Yay installation failed."
-#    fi
-#fi
-#
 ### II
 echo 'oh-my-zsh'
 filez="$HOME/.oh-my-zsh/oh-my-zsh.sh"
