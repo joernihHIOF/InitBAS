@@ -1,22 +1,125 @@
 {
     "archinstall-language": "English",
-    "audio_config": null,
+    "audio_config": {
+        "audio": "pipewire"
+    },
     "bootloader": "Grub",
     "custom_commands": [],
+    "disk_config": {
+        "btrfs_options": {
+            "snapshot_config": null
+        },
+        "config_type": "default_layout",
+        "device_modifications": [
+            {
+                "device": "/dev/sda",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [
+                            "boot"
+                        ],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "ed671703-6eaf-4d25-ba31-89d24807039e",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 1
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "MiB",
+                            "value": 1
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "ext4",
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "bb922aaa-1736-49f7-b8e4-a94bc0e3c7a8",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 248984371200
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 1074790400
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": true
+            }
+        ]
+    },
     "hostname": "archlinux",
     "kernels": [
         "linux"
     ],
     "locale_config": {
-        "kb_layout": "us",
+        "kb_layout": "no",
         "sys_enc": "UTF-8",
         "sys_lang": "en_US.UTF-8"
     },
+    "mirror_config": {
+        "custom_repositories": [],
+        "custom_servers": [],
+        "mirror_regions": {
+            "Norway": [
+                "http://mirror.archlinux.no/$repo/os/$arch",
+                "https://mirror.archlinux.no/$repo/os/$arch",
+                "http://archlinux.uib.no/$repo/os/$arch",
+                "http://mirror.neuf.no/archlinux/$repo/os/$arch",
+                "https://mirror.neuf.no/archlinux/$repo/os/$arch",
+                "http://mirror.terrahost.no/linux/archlinux/$repo/os/$arch"
+            ]
+        },
+        "optional_repositories": []
+    },
+    "network_config": {
+        "type": "nm"
+    },
     "ntp": true,
-    "packages": [],
+    "packages": [
+        "git",
+        "neovim",
+        "openssh"
+    ],
     "parallel_downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
     "services": [],
     "swap": true,
-    "timezone": "UTC",
+    "timezone": "Europe/Paris",
     "version": null
 }
