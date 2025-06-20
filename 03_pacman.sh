@@ -36,10 +36,10 @@ yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.t
 ### I
 fileh="$HOME/.config/hypr"                                                             
 if [ ! -d "$fileh" ]; then
+  echo "Hyprland is already installed."
+else
   echo "Hyprland is not installed. Proceeding with the installation..."
   bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
-else
-  echo "Hyprland is already installed."
 fi
 
 ### II
