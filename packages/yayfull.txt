@@ -19,13 +19,12 @@ hyprlock
 hyprpaper
 hyprshot
 kitty
-libreoffice-fresh
+# libreoffice-fresh
 lite-xl
 neovim
 nomachine
 obsidian
 okular
-perplexity-ai-app
 pinta
 pinta
 qtile

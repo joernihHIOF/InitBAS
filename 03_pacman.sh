@@ -31,9 +31,6 @@ else
 fi
 #
 
-
-
-
 yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 
 ### I
@@ -60,7 +57,3 @@ fi
 #    pacman -Qi "$1" &> /dev/null
 #    return $?
 #}
-
-
-
-
