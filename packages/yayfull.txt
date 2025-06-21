@@ -33,7 +33,7 @@ qtile
 #quarto-cli
 #r
 ranger
-#rstudio-desktop-bin
+rstudio-desktop-bin
 #signal-desktop
 #signal-desktop-beta
 #wl-clipboard
