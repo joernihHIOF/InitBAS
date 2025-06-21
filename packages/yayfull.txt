@@ -37,6 +37,6 @@ rstudio-desktop-bin
 signal-desktop
 wl-clipboard
 #xclip
-#xorg-xrandr
+xorg-xrandr
 #xsel
 zen-browser-bin

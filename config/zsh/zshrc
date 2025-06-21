@@ -109,7 +109,7 @@ source $HOME/InitBAS/alias.sh
 source $HOME/InitBAS/functions.sh
 unsetopt BEEP
 
-
+neofetch
 
 
 
