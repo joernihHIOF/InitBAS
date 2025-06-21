@@ -11,11 +11,6 @@ station <device> connect <ssid>
 station <device> show 
 curl -O https://raw.githubusercontent.com/joernihHIOF/InitBAS/refs/heads/main/user_configuration.json
 curl -O https://raw.githubusercontent.com/joernihHIOF/InitBAS/refs/heads/main/user_credentials.json
-
-
-  user_credentials.json
-# sudo pacman -S hyprland xdg-desktop-portal-hyprland wlroots xwayland wayland-utils wayland-protocols
-#
 scp root@192.168.0.73:user_configuration.json .
 scp root@192.168.0.73:user_credentials.json .
 
