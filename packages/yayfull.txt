@@ -21,12 +21,12 @@ hyprlock
 #hyprpaper
 #hyprshot
 kitty
-#libreoffice-fresh
+libreoffice-fresh
 fastfetch
 #lite-xl
 neovim
 nomachine
-#obsidian
+obsidian
 okular
 pinta
 qtile
