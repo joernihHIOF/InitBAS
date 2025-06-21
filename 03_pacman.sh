@@ -5,6 +5,12 @@ sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -S yay --needed --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 
+## Function to check if a package is installed
+is_installed() {
+    pacman -Qi "$1" &> /dev/null
+    return $?
+}
+
 ## Check if Yay is already installed
 if is_installed "yay"; then
     echo "Yay is already installed."
@@ -52,8 +58,3 @@ else
   echo "Oh My Zsh is already installed."
 fi
 #
-## Function to check if a package is installed
-#is_installed() {
-#    pacman -Qi "$1" &> /dev/null
-#    return $?
-#}
