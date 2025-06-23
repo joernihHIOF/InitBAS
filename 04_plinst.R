@@ -5,17 +5,15 @@ local({
 })
 rpack <- readLines("~/InitBAS/packages/rpkbase.txt")                        
 # Check if each package is already installed, if not, install it     
-library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.4")
+library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.5")
 print(library_path)
 if (!dir.exists(library_path)) {                                                                          
   dir.create(library_path, recursive = TRUE)                                                              
 }                                                                                                         
-#  'lib = "/usr/lib/R/library"' is not writable
-#for (package in rpack) {                                          
-#  if (!(package %in% rownames(installed.packages()))) {              
-#    install.packages(package)
-#  }                                                                  
-#}                                                                    
-#
+for (package in rpack) {                                          
+  if (!(package %in% rownames(installed.packages()))) {              
+    install.packages(package)
+  }                                                                  
+}                                                                    
 # py_install("numba")
 

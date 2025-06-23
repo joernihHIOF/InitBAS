@@ -1,5 +1,5 @@
-#ggplot2
-#devtools
-#dplyr
-#readr
-#reticulate
+ggplot2
+devtools
+dplyr
+readr
+reticulate
