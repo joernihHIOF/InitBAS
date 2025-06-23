@@ -9,9 +9,8 @@ local({
 })
 
 # Read in a list of package names from the specified file (one package name per line)
-rpack <- readLines("~/InitBAS/packages/rpkbase.txt")
+rpack <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 # Print out the list of packages to confirm what was read
-print(rpack)
 
 # Define the library path where packages should be installed; this is constructed using the HOME environment variable and a specific directory structure
 library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.4")
