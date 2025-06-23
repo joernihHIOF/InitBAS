@@ -35,6 +35,7 @@ sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.t
 #     fi
 # fi
 # #
+yay         -Syu --noconfirm 
 yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 
 ### II
