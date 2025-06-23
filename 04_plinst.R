@@ -5,7 +5,9 @@ local({
 })
 rpack <- readLines("~/InitBAS/packages/rpkbase.txt")                        
 # Check if each package is already installed, if not, install it     
-library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.5")
+r_version <- paste(R.version$major, R.version$minor, sep = ".")
+library_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", r_version)
+#library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.5")
 print(library_path)
 if (!dir.exists(library_path)) {                                                                          
   dir.create(library_path, recursive = TRUE)                                                              
