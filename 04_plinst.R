@@ -7,8 +7,8 @@ local({
   # Save the updated repository settings in the options
   options(repos = r)
 })
-rpack <- readLines("~/InitBAS/packages/rpkbase.txt")                        
-# Check if each package is already installed, if not, install it     
+
+rpack <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 r_version <- paste(R.version$major, R.version$minor, sep = ".")
 library_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", r_version)
 #library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.5")
