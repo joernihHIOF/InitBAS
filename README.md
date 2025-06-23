@@ -36,3 +36,5 @@
 ## Plasma
 # sudo pacman -S --needed xorg plasma kde-applications sddmj
 # sudo pacman -S plasma-wayland-session
+
+# startplasma-x11
