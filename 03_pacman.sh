@@ -1,21 +1,15 @@
 #!/bin/bash
+## Pacman
 echo 'pacman starter'
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
-sudo pacman -S yay --needed --noconfirm
-<<<<<<< HEAD
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
-yay         -S --noconfirm --needed --noconfirm - < ~/InitJIH/packages/yayfull.txt 2>/dev/null
-=======
-sudo pacman -Syu --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
->>>>>>> 79bacd58189fc87cb4f8215904f695bdad80cd38
 
-### Function to check if a package is installed
+## Yay
 #is_installed() {
 #    pacman -Qi "$1" &> /dev/null
 #    return $?
 #}
-
 ## Check if Yay is already installed
 # if is_installed "yay"; then
 #     echo "Yay is already installed."
@@ -41,6 +35,18 @@ sudo pacman -Syu --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull
 #     fi
 # fi
 # #
+yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
+
+### II
+#echo 'oh-my-zsh'
+#filez="$HOME/.oh-my-zsh/oh-my-zsh.sh"
+#if [ ! -f "$filez" ]; then
+#  echo "$PROGRAM_NAME is not installed. Proceeding with the installation..."
+#  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#else
+#  echo "Oh My Zsh is already installed."
+#fi
+##
 ### I
 #fileh="$HOME/.config/hypr"                                                             
 #if [ ! -d "$fileh" ]; then
@@ -50,13 +56,3 @@ sudo pacman -Syu --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull
 #  bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
 #fi
 
-### II
-echo 'oh-my-zsh'
-filez="$HOME/.oh-my-zsh/oh-my-zsh.sh"
-if [ ! -f "$filez" ]; then
-  echo "$PROGRAM_NAME is not installed. Proceeding with the installation..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-else
-  echo "Oh My Zsh is already installed."
-fi
-#
