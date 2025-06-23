@@ -1,5 +1,12 @@
 ggplot2
+<<<<<<< HEAD
 #devtools
 #dplyr
 #readr
 #reticulate
+=======
+devtools
+dplyr
+readr
+reticulate
+>>>>>>> 74a8361866f4925897f441ba0eb8d64eedb01ca0
