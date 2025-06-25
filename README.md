@@ -32,3 +32,9 @@
 # /usr/NX/etc/server.cfg
 # sudo pacman -S bluez bluez-utils
 # yay -S zen-browser-bin
+
+## Plasma
+# sudo pacman -S --needed xorg plasma kde-applications sddmj
+# sudo pacman -S plasma-wayland-session
+
+# startplasma-x11
