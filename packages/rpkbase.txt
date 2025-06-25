@@ -1,9 +1,9 @@
 dplyr
 ggplot2
 reticulate
-#devtools
-#readr
-#reticulate
-#devtools
-#dplyr
-#readr
+devtools
+readr
+reticulate
+devtools
+dplyr
+readr
