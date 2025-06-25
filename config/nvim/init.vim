@@ -21,6 +21,7 @@ let g:neoterm_autoscroll = 1
 let maplocalleader = ','
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
+        Plug 'jalvesaq/vimcmdline'
 	Plug 'jalvesaq/Nvim-R'
         Plug 'lambdalisue/suda.vim'
 	Plug 'gaalcaras/ncm-R'
