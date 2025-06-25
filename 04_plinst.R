@@ -1,21 +1,25 @@
+# Temporarily set the CRAN repository to a specific URL
 local({
+  # Retrieve the current repository settings
   r <- getOption("repos")
+  # Update the CRAN repository to use the specified URL
   r["CRAN"] <- "https://cran.uib.no/"
+  # Save the updated repository settings in the options
   options(repos = r)
 })
-rpack <- readLines("~/InitBAS/packages/rpkbase.txt")                        
-# Check if each package is already installed, if not, install it     
-library_path <- paste0(Sys.getenv("HOME"),"/R/x86_64-pc-linux-gnu-library/4.4")
-print(library_path)
-if (!dir.exists(library_path)) {                                                                          
-  dir.create(library_path, recursive = TRUE)                                                              
-}                                                                                                         
-#  'lib = "/usr/lib/R/library"' is not writable
-#for (package in rpack) {                                          
-#  if (!(package %in% rownames(installed.packages()))) {              
-#    install.packages(package)
-#  }                                                                  
-#}                                                                    
-#
-# py_install("numba")
+
+rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
+rpack <- .libPaths()[1]
+lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", rpack)
+if (!dir.exists(lib_path)) {                                                                            dir.create(lib_path, recursive = TRUE)                                                              
+}                                                                                                     
+for (package in rabc) {                                          
+  if ((!package %in% rownames(installed.packages()))) {              
+    print(rpack)
+    install.packages(package)
+    #install.packages("askpass")
+  }                                                                  
+}                                                                    
+
+
 
