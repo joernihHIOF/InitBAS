@@ -1,3 +1,4 @@
+ellmer
 bluez 
 bluez-utils
 alacritty
