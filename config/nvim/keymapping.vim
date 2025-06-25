@@ -1,3 +1,9 @@
+" Shortcuts
+map eo :e 
+map co :
+map fin /
+
+" Split
 map c1 :split<cr>
 map c2 :vsplit<cr>
 map so :only<cr>
