@@ -30,14 +30,15 @@ else
     yay -Syu --noconfirm
     yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 fi
-## Zsh
-if ! command -v yay &> /dev/null
+## Hyprland
+if ! command -v Hyprland &> /dev/null
 then
     echo "Hyprland is not installed. Proceeding with the installation..."
     bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
 else
     echo "Hyprland found"
 fi
+## Zsh
 ## Oh-my-zsh
 if ! [ -n "$ZSH" ]
 then
