@@ -41,3 +41,4 @@ wl-clipboard
 xorg-xrandr
 #xsel
 zen-browser-bin
+copyq

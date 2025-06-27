@@ -28,3 +28,7 @@ alias ipe='curl -4 icanhazip.com'
 
 alias cedu='nmcli d wifi connect eduroam' # Mobil
 alias hcmd="hyprctl keyword monitor 'eDP-1,disable'"
+
+
+alias pacu='sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null'
+alias yayu='yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null'
