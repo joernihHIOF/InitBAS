@@ -38,3 +38,4 @@
 # sudo pacman -S plasma-wayland-session
 
 # startplasma-x11
+# abc
