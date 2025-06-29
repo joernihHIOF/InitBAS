@@ -3,6 +3,7 @@
 echo 'pacman starter'
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
+sudo pacman fastfetch r
 sudo pacman -Syu
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 ## Yay
@@ -42,11 +43,11 @@ else
     echo "ZSH already installed"
 fi
 ## Hyprland
-if ! command -v Hyprland &> /dev/null
-then
-    echo "Hyprland is not installed. Proceeding with the installation..."
-    bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
-else
-    echo "Hyprland found"
-fi
+#if ! command -v Hyprland &> /dev/null
+#then
+#    echo "Hyprland is not installed. Proceeding with the installation..."
+#    bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
+#else
+#    echo "Hyprland found"
+#fi
 
