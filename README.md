@@ -34,3 +34,10 @@
 # Hyprland
 
 
+#> install.packages("ellmer")
+#Warning in install.packages("ellmer") :
+#  'lib = "/usr/lib/R/library"' is not writable
+#Would you like to use a personal library instead? (yes/No/cancel) yes
+#Would you like to create a personal library
+#‘/home/joernih/R/x86_64-pc-linux-gnu-library/4.5’
+#to install packages into? (yes/No/cancel) yes
