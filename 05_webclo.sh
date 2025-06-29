@@ -15,4 +15,19 @@ clone_if_not_exists() {
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
+# Desktop managers
+
+# KDE plasma
+sudo pacman -S --needed xorg plasma kde-applications
+
+## Hyprland
+if ! command -v Hyprland &> /dev/null
+then
+    echo "Hyprland is not installed. Proceeding with the installation..."
+    bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
+else
+    echo "Hyprland found"
+fi
+
+
 
