@@ -4,4 +4,4 @@ source $HOME/.environBAS
 source $HOME/InitBAS/init.sh
 source $HOME/InitBAS/functions.sh
 source $HOME/InitBAS/alias.sh
-neofetch
+fastfetch
