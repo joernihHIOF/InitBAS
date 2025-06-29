@@ -8,6 +8,8 @@ local({
   options(repos = r)
 })
 
+
+
 rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 rpack <- .libPaths()[1]
 lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/")
@@ -16,5 +18,9 @@ for (package in rabc) {
         install.packages(package)
     }
 }
+#Warning in install.packages(package) :
+#  'lib = "/usr/lib/R/library"' is not writable
+#Error in install.packages(package) : unable to install packages
+Execution halted
 
 
