@@ -1,1 +1,4 @@
-# History file for R-Session
+# LLM API keys
+OPENAI_KEY=""
+GROQ_API_KEY=""
+GEMINI_API_KEY=""
