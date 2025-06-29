@@ -20,3 +20,9 @@ for (package in rabc) {
         install.packages(package, lib = lib_path)
     }
 }
+
+
+#if (!dir.exists(Sys.getenv("R_LIBS_USER"))) {
+#  dir.create(Sys.getenv("R_LIBS_USER"), recursive = TRUE)
+#}
+#install.packages("ellmer", lib = Sys.getenv("R_LIBS_USER"))
