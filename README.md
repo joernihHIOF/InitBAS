@@ -30,11 +30,20 @@
 # /usr/NX/etc/node.cfg
 # /usr/NX/etc/server.cfg
 # sudo pacman -S bluez bluez-utils
-# yay -S zen-browser-bin
-
-## Plasma
-# sudo pacman -S --needed xorg plasma kde-applications sddmj
-# sudo pacman -S plasma-wayland-session
 
 # startplasma-x11
-# abc
+# Hyprland
+
+
+#(1/1) Arming ConditionNeedsUpdate...
+# is not installed. Proceeding with the installation...
+#The $ZSH folder already exists (/home/joernih/.oh-my-zsh).
+#You'll need to remove it if you want to reinstall.
+#ABC
+
+
+#[1] "/usr/lib/R/library"
+#Warning in install.packages(package) :
+#  'lib = "/usr/lib/R/library"' is not writable
+#Error in install.packages(package) : unable to install packages
+#Execution halted
