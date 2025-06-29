@@ -8,9 +8,6 @@ local({
   options(repos = r)
 })
 
-
-
-
 # Fixed?
 rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/")
