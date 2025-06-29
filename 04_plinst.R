@@ -8,29 +8,13 @@ local({
   options(repos = r)
 })
 
-#rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
-#print(rabc)
-##rpack <- .libPaths()[1]
-#rpack <- "$HOME/R/x86_64-pc-linux-gnu-library"
-#lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/")
-##lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", rpack)
-#for (package in rabc) {                                          
-#  #if ((!package %in% rownames(installed.packages()))) {              
-#    print(rabc)
-#    install.packages(package)
-#  #}                                                                  
-#}
-
-#if (!dir.exists(lib_path)) {                                                                            dir.create(lib_path, recursive = TRUE)                                                              
-#}                                                                                                     
-#for (package in rabc) {                                          
-#  if ((!package %in% rownames(installed.packages()))) {              
-#    print(rpack)
-#    install.packages(package)
-#  }                                                                  
-#}                                                                    
-#
-
-
+rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
+rpack <- .libPaths()[1]
+lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/")
+for (package in rabc) {
+    if (!require(package, character.only = TRUE, quietly = TRUE)) {
+        install.packages(package)
+    }
+}
 
 
