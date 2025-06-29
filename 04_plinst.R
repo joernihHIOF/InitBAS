@@ -7,9 +7,9 @@
 #  # Save the updated repository settings in the options
 #  options(repos = r)
 #})
-
-rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
-rpack <- .libPaths()[1]
+#
+#rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
+#rpack <- .libPaths()[1]
 #lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", rpack)
 #if (!dir.exists(lib_path)) {                                                                            dir.create(lib_path, recursive = TRUE)                                                              
 #}                                                                                                     
