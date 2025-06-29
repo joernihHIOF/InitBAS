@@ -11,7 +11,7 @@ clone_if_not_exists() {
         echo "Directory $target_dir already exists. Skipping clone."
     fi
 }
-clone_if_not_exists "https://github.com/makccr/wallpapers" "$HOME/.config/wallpapers/github"
+# clone_if_not_exists "https://github.com/makccr/wallpapers" "$HOME/.config/wallpapers/github"
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
