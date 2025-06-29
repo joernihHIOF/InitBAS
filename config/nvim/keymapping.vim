@@ -1,7 +1,11 @@
 " Shortcuts
-map eo :e 
+map cr :r !
+map cb :!
+map ce :e 
 map co :
 map fin /
+map gco :e .git/config<CR>
+map fmr:  terminal ranger<CR>
 
 " Split
 map c1 :split<cr>
@@ -57,7 +61,3 @@ map seh  :e ~/InitBAS/config/hyprland/hyprland.conf<CR>
 map sec  :e ~/InitBAS/README.md<CR>
 map kmp  :e ~/InitBAS/config/nvim/keymapping.vim<CR>
 
-map gco :e .git/config<CR>
-map ee :e
-map fmr:  terminal ranger<CR>
-" Missing fmr
