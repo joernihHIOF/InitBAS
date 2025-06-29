@@ -1,3 +1,4 @@
+
 # Temporarily set the CRAN repository to a specific URL
 local({
   # Retrieve the current repository settings
@@ -10,16 +11,16 @@ local({
 
 rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 rpack <- .libPaths()[1]
-lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", rpack)
-if (!dir.exists(lib_path)) {                                                                            dir.create(lib_path, recursive = TRUE)                                                              
-}                                                                                                     
-for (package in rabc) {                                          
-  if ((!package %in% rownames(installed.packages()))) {              
-    print(rpack)
-    install.packages(package)
-    #install.packages("askpass")
-  }                                                                  
-}                                                                    
+#lib_path <- paste0(Sys.getenv("HOME"), "/R/x86_64-pc-linux-gnu-library/", rpack)
+#if (!dir.exists(lib_path)) {                                                                            dir.create(lib_path, recursive = TRUE)                                                              
+#}                                                                                                     
+#for (package in rabc) {                                          
+#  if ((!package %in% rownames(installed.packages()))) {              
+#    print(rpack)
+#    install.packages(package)
+#    #install.packages("askpass")
+#  }                                                                  
+#}                                                                    
 
 
 
