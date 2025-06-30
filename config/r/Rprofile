@@ -4,4 +4,10 @@ local({
   r["CRAN"] <- "https://cran.uib.no/"
   options(repos = r)
 })
+bp <- function(path=rprojroot::find_rstudio_root_file()){
+   setwd(path)
+   devtools::document()
+   system(paste0('cd ',path,'; R CMD INSTALL --preclean --no-multiarch --with-keep.source .'))
+}
+
 
