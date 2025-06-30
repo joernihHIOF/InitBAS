@@ -1,4 +1,7 @@
 # LLM API keys
+# https://platform.openai.com/account/api-keys
 OPENAI_KEY=""
+# https://www.sanity.io/docs/groq
 GROQ_API_KEY=""
+#  https://developers.google.com/ai/gemini
 GEMINI_API_KEY=""
