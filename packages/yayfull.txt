@@ -1,18 +1,14 @@
 alacritty
 amule
 arp-scan
-bash
 bash-completion
 bluez 
 bluez bluez-utils
 bluez-utils
 brave-browser
 calibre
-chatbox
 chatgpt-shell-cli
 copyq
-ellmer
-fastfetch
 ghostwriter
 github-cli 
 gnome-screenshot
@@ -26,7 +22,6 @@ obsidian
 okular
 pinta
 qtile
-r
 ranger
 rstudio-desktop-bin
 signal-desktop
