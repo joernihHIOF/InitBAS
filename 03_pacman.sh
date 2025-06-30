@@ -1,9 +1,9 @@
 #!/bin/bash
 ## Pacman
 echo 'pacman starter'
+sudo pacman fastfetch
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
-sudo pacman fastfetch r
 sudo pacman -Syu
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 ## Yay
