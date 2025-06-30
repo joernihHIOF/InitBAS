@@ -1,7 +1,12 @@
+# Settings
 export NAME=""
 export EMAIL=""
-export EDITOR="/usr/bin/nvim"
-export BROWSER=/usr/bin/zen-browser
+export EDITOR=""
+export BROWSER=""
+# GIT
 export LANG=en_US.UTF-8
 export GIT_PAT=
-
+# API keys
+OPENAI_KEY=""
+GROQ_API_KEY=""
+GEMINI_API_KEY=""
