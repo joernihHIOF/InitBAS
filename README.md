@@ -33,3 +33,4 @@
 # Hyprland
 
 
+# sudo nano /etc/systemd/logind.conf
