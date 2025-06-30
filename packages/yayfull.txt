@@ -37,3 +37,4 @@ xorg-xrandr
 xsel
 zen-browser-bin
 zsh
+gcc-fortran
