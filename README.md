@@ -31,4 +31,4 @@
 # Desktop start with
 # Hyprland
 # startplasma-wayland
-# startplasma-x11
+# startplasma-x11 (?)

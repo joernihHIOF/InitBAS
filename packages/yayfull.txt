@@ -9,6 +9,7 @@ brave-browser
 calibre
 chatgpt-shell-cli
 copyq
+gcc-fortran
 ghostwriter
 github-cli 
 gnome-screenshot
@@ -32,4 +33,3 @@ xorg-xrandr
 xsel
 zen-browser-bin
 zsh
-gcc-fortran
