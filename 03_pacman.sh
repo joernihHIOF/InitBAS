@@ -3,8 +3,9 @@
 echo 'pacman starter'
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
-sudo pacman fastfetch r
 sudo pacman -Syu
+sudo pacman fastfetch
+sudo pacman r
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 ## Yay
 echo 'yay starter'

@@ -25,7 +25,6 @@
 # config/hyprland/config.ini
 # config/nvim/init.vim
 # config/nvim/keymapping.vim
-
 # alias.sh
 # functions.sh
 
@@ -33,4 +32,3 @@
 # Hyprland
 
 
-# sudo nano /etc/systemd/logind.conf
