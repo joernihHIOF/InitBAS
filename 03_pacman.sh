@@ -7,6 +7,7 @@ sudo pacman -Syu
 sudo pacman fastfetch
 sudo pacman r
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
+
 ## Yay
 echo 'yay starter'
 if ! command -v yay &> /dev/null
@@ -24,8 +25,10 @@ then
     makepkg -si --noconfirm
     
     # Clean up
+    echo "updating yay"
+    yay -Syu --noconfirm
+    yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
     rm -rf /tmp/yay-install
-    
     echo "yay has been installed successfully."
 else
     echo "updating yay"
