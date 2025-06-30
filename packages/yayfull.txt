@@ -26,7 +26,6 @@ obsidian
 okular
 pinta
 qtile
-quarto-cli
 r
 ranger
 rstudio-desktop-bin
