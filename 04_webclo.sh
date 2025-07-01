@@ -18,9 +18,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.v
 # Desktop managers
 
 # KDE plasma
-sudo pacman -S --needed xorg plasma kde-applications
-sudo pacman -S plasma-nm
-sudo pacman -S plasma-wayland-session
+sudo pacman -S  xorg plasma kde-applications --needed
+sudo pacman -S plasma-nm --needed
+sudo pacman -S plasma-wayland-session --needed
 ## Hyprland
 if ! command -v Hyprland &> /dev/null
 then
