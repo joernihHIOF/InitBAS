@@ -33,3 +33,5 @@ xorg-xrandr
 xsel
 zen-browser-bin
 zsh
+dmenu
+rofi
