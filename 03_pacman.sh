@@ -21,8 +21,12 @@ then
     git clone https://aur.archlinux.org/yay.git /tmp/yay-install
     
     # Build and install yay
-    cd /tmp/yay-install || exit
+    #cd /tmp/yay-install || exit
+    #makepkg -si --noconfirm
+    # Jump to the new directory, then return after install
+    pushd /tmp/yay-install || exit
     makepkg -si --noconfirm
+    popd
     
     # Clean up
     echo "updating yay"
