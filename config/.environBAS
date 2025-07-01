@@ -10,3 +10,9 @@ export GIT_PAT=
 OPENAI_KEY=""
 GROQ_API_KEY=""
 GEMINI_API_KEY=""
+#
+#| Service | API Key Web Page Location                       | Instructions Summary                      |
+#|---------|------------------------------------------------|-------------------------------------------|
+#| OpenAI  | platform.openai.com/account/api-keys           | Log in, go to API Keys, create/copy key   |
+#| GROQ    | console.groq.com                               | Log in, navigate to API section, generate |
+#| Gemini  | aistudio.google.com (Google AI Studio)         | Log in, Get API key, create/copy key      |
