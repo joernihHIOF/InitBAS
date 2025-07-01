@@ -36,3 +36,5 @@ alias yayu='yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packag
 alias pacu='sudo pacman -Syu --noconfirm; yay -Syu --noconfirm'
 
 
+alias hypr='Hyprland'
+alias plkd='startplasma-wayland'
