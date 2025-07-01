@@ -32,3 +32,7 @@
 # Hyprland
 # startplasma-wayland
 # startplasma-x11 (?)
+
+
+# sudo visudo
+# Defaults timestamp_timeout=30
