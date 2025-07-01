@@ -6,6 +6,7 @@ sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
+sudo pacman -r fastfetch
 
 ## Yay
 echo 'yay starter'
