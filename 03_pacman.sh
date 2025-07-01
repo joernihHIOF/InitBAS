@@ -4,8 +4,7 @@ echo 'pacman starter'
 sudo pacman fastfetch
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
-sudo pacman -Syu
-sudo pacman r
+sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
 
 ## Yay
@@ -26,14 +25,13 @@ then
     # Jump to the new directory, then return after install
     pushd /tmp/yay-install || exit
     makepkg -si --noconfirm
+    echo "yay has been installed successfully."
     popd
     
-    # Clean up
+    rm -rf /tmp/yay-install
     echo "updating yay"
     yay -Syu --noconfirm
-    yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
-    rm -rf /tmp/yay-install
-    echo "yay has been installed successfully."
+    yay -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
 else
     echo "updating yay"
     yay -Syu --noconfirm
