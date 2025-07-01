@@ -1,7 +1,8 @@
 # Set options
 local({
   r <- getOption("repos")
-  r["CRAN"] <- "https://cran.uib.no/"
+  #r["CRAN"] <- "https://cran.uib.no/"
+  r["CRAN"] <- "https://mirrors.dotsrc.org/cran/"
   options(repos = r)
 })
 bp <- function(path=rprojroot::find_rstudio_root_file()){
