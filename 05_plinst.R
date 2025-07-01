@@ -17,10 +17,8 @@ for (package in rabc) {
   if ((!package %in% rownames(installed.packages()))) {              
     print(rpack)
     install.packages(package)
-    #install.packages("askpass")
   }                                                                  
 }                                                                    
-
 
 reticulate::py_require("numpy")
 reticulate::py_require("sympy")
