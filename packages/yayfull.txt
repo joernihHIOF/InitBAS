@@ -35,3 +35,4 @@ zen-browser-bin
 zsh
 dmenu
 rofi
+r
