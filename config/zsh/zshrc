@@ -104,11 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source $HOME/.environBAS
-source $HOME/InitBAS/init.sh
 source $HOME/InitBAS/alias.sh
 source $HOME/InitBAS/functions.sh
+source $HOME/InitBAS/init.sh
 unsetopt BEEP
-
 fastfetch
 
 
