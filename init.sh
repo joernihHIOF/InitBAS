@@ -13,7 +13,7 @@ pacman() {
 plinst() {
     Rscript $HOME/InitBAS/04_plinst.R
 }
-webclo() {
+dsktop() {
     source $HOME/InitBAS/05_dsktop.sh
 }
 updmac() {
@@ -21,6 +21,6 @@ updmac() {
 	symlin
 	pacman
 	plinst
-	deskto
+	dsktop
 }
 
