@@ -8,3 +8,4 @@ devtools
 dplyr
 readr
 ellmer
+chatgpt

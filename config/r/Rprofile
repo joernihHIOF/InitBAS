@@ -13,4 +13,4 @@ bp <- function(path=rprojroot::find_rstudio_root_file()){
 Sys.setenv(GROQ_API_KEY =Sys.getenv("GROQ_API_KEY"))
 Sys.setenv(OPENAI_KEY =Sys.getenv("OPENAI_KEY"))
 Sys.setenv(GEMINI_API_KEY =Sys.getenv("GEMINI_API_KEY"))
-
+print(Sys.getenv("GROQ_API_KEY"))
