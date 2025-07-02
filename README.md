@@ -18,7 +18,6 @@
 # config/bash/bashrc
 # config/zsh/zshrc
 # config/r/Rprofile 
-# config/r/Renviron 
 # config/hyprland/hyprland.conf
 # config/hyprland/hyprpaper.conf
 # config/hyprland/reload-hyprpaper.sh
