@@ -10,6 +10,5 @@ ln -sf $HOME/.environBAS $HOME/.Renviron
 ln -sf $HOME/InitBAS/config/hyprland/hyprland.conf  $HOME/.config/hypr/hyprland.conf
 ln -sf $HOME/InitBAS/config/hyprland/hyprpaper.conf $HOME/.config/hypr/hyprpaper.conf
 
-#[ ! -d etc/issue ] && touch etc/issue
-#touch: cannot touch 'etc/issue': No such file or directory
-##ln -sf $HOME/InitJIH/config/tty1/issue etc/issue 
+[ ! -d etc/issue ] && sudo touch /etc/issue
+sudo ln -sf $HOME/InitBAS/config/tty1/issue /etc/issue 

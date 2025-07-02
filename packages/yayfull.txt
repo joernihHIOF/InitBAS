@@ -23,6 +23,7 @@ obsidian
 okular
 pinta
 qtile
+quarto-cli-bin
 ranger
 rstudio-desktop-bin
 signal-desktop
