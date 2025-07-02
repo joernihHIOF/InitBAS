@@ -10,17 +10,17 @@ symlin() {
 pacman() {
     source $HOME/InitBAS/03_pacman.sh
 }
-webclo() {
-    source $HOME/InitBAS/04_webclo.sh
-}
 plinst() {
-    Rscript $HOME/InitBAS/05_plinst.R
+    Rscript $HOME/InitBAS/04_plinst.R
+}
+webclo() {
+    source $HOME/InitBAS/05_dsktop.sh
 }
 updmac() {
 	config
+	symlin
 	pacman
 	plinst
-	webclo
-	symlin
+	deskto
 }
 
