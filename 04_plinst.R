@@ -4,7 +4,7 @@ if (!dir.exists(Sys.getenv("R_LIBS_USER"))) {
 
 rabc <- (x <- readLines("~/InitBAS/packages/rpkbase.txt"))[!grepl("^#", x)]
 for (pins in rabc) {                                          
-  if ((!package %in% rownames(installed.packages()))) {              
+  if ((!packag %in% rownames(installed.packages()))) {              
     print(rpack)
     install.packages(pins)
   }                                                                  
