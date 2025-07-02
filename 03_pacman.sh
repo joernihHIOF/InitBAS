@@ -1,12 +1,12 @@
 #!/bin/bash
 ## Pacman
 echo 'pacman starter'
-sudo pacman -S fastfetch
 sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
-sudo pacman -S r
+pacman -Qi fastfetch >/dev/null 2>&1 || sudo pacman -S fastfetch
+pacman -Qi r >/dev/null 2>&1 || sudo pacman -S r
 
 ## Yay
 echo 'yay starter'
