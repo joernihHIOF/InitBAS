@@ -1187,6 +1187,7 @@ xfsprogs
 xkeyboard-config
 xl2tpd
 xmlsec
+xorg
 xorg-fonts-encodings
 xorg-mkfontscale
 xorg-server

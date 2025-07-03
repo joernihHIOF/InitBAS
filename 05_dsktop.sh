@@ -28,7 +28,7 @@ fi
 
 #
 ## KDE plasma
-sudo pacman -S xorg plasma kde-applications --needed
+sudo pacman -S plasma kde-applications --needed
 sudo pacman -S plasma-nm --needed
 sudo pacman -S plasma-wayland-session --needed
 #
