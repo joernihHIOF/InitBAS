@@ -5,8 +5,9 @@ sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
-pacman -Qi fastfetch >/dev/null 2>&1 || sudo pacman -S fastfetch
-pacman -Qi r >/dev/null 2>&1 || sudo pacman -S r
+sudo pacman -S fastfetch
+sudo pacman -S r
+sudo pacman -S zsh
 
 ## Yay
 echo 'yay starter'
@@ -40,7 +41,6 @@ else
 fi
 ## Zsh
 ## Oh-my-zsh
-sudo pacman -S zsh
 if ! [ -n "$ZSH" ]
 then
     echo "$PROGRAM_NAME is not installed. Proceeding with the installation..."
