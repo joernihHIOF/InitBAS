@@ -19,6 +19,8 @@ then
     echo "Hyprland is not installed. Proceeding with the installation..."
 	sudo pacman -S hyprland
 	sudo pacman -S waybar rofi-wayland alacritty dunst dolphin xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper hyprlock ttf-font-awesome
+        ln -sf $HOME/InitBAS/config/hyprland/hyprland.conf  $HOME/.config/hypr/hyprland.conf
+        ln -sf $HOME/InitBAS/config/hyprland/hyprpaper.conf $HOME/.config/hypr/hyprpaper.conf
 else
     echo "Hyprland found"
 fi
