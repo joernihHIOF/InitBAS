@@ -16,13 +16,8 @@ clone_if_not_exists() {
 
 # Desktop managers
 ## Hyprland
-if ! command -v Hyprland &> /dev/null
-then
-    echo "Hyprland is not installed. Proceeding with the installation..."
-   bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
-else
-    echo "Hyprland found"
-fi
+sudo pacman -S hyprland
+sudo pacman -S waybar rofi-wayland alacritty dunst dolphin xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper hyprlock ttf-font-awesome
 #
 ## KDE plasma
 #sudo pacman -S  xorg plasma kde-applications --needed
