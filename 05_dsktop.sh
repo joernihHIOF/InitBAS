@@ -12,8 +12,6 @@ clone_if_not_exists() {
     fi
 }
 
-# clone_if_not_exists "https://github.com/makccr/wallpapers" "$HOME/.config/wallpapers/github"
-
 # Desktop managers
 ## Hyprland
 if ! command -v Hyprland &> /dev/null
@@ -28,11 +26,12 @@ fi
 
 #
 ## KDE plasma
-sudo pacman -S  xorg plasma kde-applications --needed
+sudo pacman -S xorg plasma kde-applications --needed
 sudo pacman -S plasma-nm --needed
 sudo pacman -S plasma-wayland-session --needed
 #
 ## Qtile
 sudo pacman -S qtile
+
 
 
