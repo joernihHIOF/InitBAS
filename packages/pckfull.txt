@@ -1,3 +1,6 @@
+fastfetch
+r
+zsh
 aalib
 abseil-cpp
 accounts-qml-module

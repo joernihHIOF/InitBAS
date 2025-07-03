@@ -5,9 +5,6 @@ sudo pacman -Sy archlinux-keyring manjaro-keyring --needed
 sudo pacman -S --needed base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.txt 2>/dev/null
-sudo pacman -S fastfetch
-sudo pacman -S r
-sudo pacman -S zsh
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 # ln -sf $HOME/InitBAS/config/r/Rprofile $HOME/.Rprofile
 # ln -sf $HOME/.environBAS $HOME/.Renviron
