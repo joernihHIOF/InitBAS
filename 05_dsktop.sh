@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to clone repository if it doesn't exist
+## Function to clone repository if it doesn't exist
 clone_if_not_exists() {
     repo_url="$1"
     target_dir="$2"
@@ -19,17 +19,17 @@ clone_if_not_exists() {
 if ! command -v Hyprland &> /dev/null
 then
     echo "Hyprland is not installed. Proceeding with the installation..."
-    bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
+   bash <(curl -s "https://gitlab.com/stephan-raabe/hyprland-starter/-/raw/main/setup.sh")
 else
     echo "Hyprland found"
 fi
-
-# KDE plasma
-sudo pacman -S  xorg plasma kde-applications --needed
-sudo pacman -S plasma-nm --needed
-sudo pacman -S plasma-wayland-session --needed
-
-# Qtile
-sudo pacman -S qtile
+#
+## KDE plasma
+#sudo pacman -S  xorg plasma kde-applications --needed
+#sudo pacman -S plasma-nm --needed
+#sudo pacman -S plasma-wayland-session --needed
+#
+## Qtile
+#sudo pacman -S qtile
 
 
