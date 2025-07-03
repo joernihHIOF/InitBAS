@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 if [ ! -f "../.environBAS" ]; then
     cp config/.environBAS ../.environBAS
 fi
