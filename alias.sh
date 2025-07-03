@@ -37,6 +37,10 @@ alias pacu='sudo pacman -Syu --noconfirm; yay -Syu --noconfirm'
 
 
 alias hyprla='Hyprland'
-alias plkdhy='startplasma-wayland'
+alias plkdwy='startplasma-wayland'
 alias plkdx1='startplasma-x11'
+alias qtilew='qtile'
+alias qtilex='qtile'
+
+
 
