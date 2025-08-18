@@ -35,3 +35,6 @@
 # sudo visudo
 # Defaults timestamp_timeout=30
 # nvim +PlugInstall +qall
+
+
+
