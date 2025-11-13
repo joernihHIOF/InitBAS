@@ -1,4 +1,4 @@
-# ln -sf $HOME/InitBAS/config/nvim/init.lua $HOME/.config/nvim/init.lue
+ln -sf $HOME/InitBAS/config/nvim/init.lua $HOME/.config/nvim/init.lua
 
 # [ ! -d $HOME/.config/nvim ] && mkdir -p $HOME/.config/nvim 
 # [ ! -d $HOME/.config/hypr ] && mkdir -p $HOME/.config/hypr 
