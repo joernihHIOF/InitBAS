@@ -16,7 +16,7 @@ plinst() {
 dsktop() {
     source $HOME/InitBAS/05_dsktop.sh
 }
-updmac() {
+updmacBAS() {
 	config
 	symlin
 	pacman

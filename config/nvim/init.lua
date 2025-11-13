@@ -32,6 +32,12 @@ vim.keymap.set("n", "fin", "/")
 vim.keymap.set("n", "cp", ":let @+ = expand('%:p')<CR>")
 vim.keymap.set("n", "cp1", ":let @+ = expand('%')<CR>")
 
+vim.keymap.set(
+  "n",
+  "<leader>t",
+  ":terminal ++cwd=%:p:h<CR>",
+  { desc = "Open terminal in current file's project folder" }
+)
 -- Easy window navigation (non-recursive)
 -- vim.keymap.set("n", "<A-h>", "<C-w>h")
 -- vim.keymap.set("n", "<A-j>", "<C-w>j")
