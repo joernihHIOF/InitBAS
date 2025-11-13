@@ -1,3 +1,4 @@
+library(HomepageJIH)
 # Set options
 local({
   r <- getOption("repos")
