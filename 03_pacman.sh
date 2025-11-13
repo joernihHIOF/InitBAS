@@ -1,7 +1,7 @@
 #!/bin/bash
 ## Pacman
 #echo 'pacman starter'
-#sudo pacman -Sy archlinux-keyring --needed
+sudo pacman -Sy archlinux-keyring --needed
 #sudo pacman -S --needed base-devel --noconfirm
 #sudo pacman -Syu --noconfirm
 #sudo pacman -Sy fastfetch --needed
