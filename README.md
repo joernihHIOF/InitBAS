@@ -15,6 +15,7 @@
 # packages/yayfull.txt
 # packages/rpkbase.txt
 
+# .git/config
 # config/bash/bashrc
 # config/zsh/zshrc
 # config/r/Rprofile 
