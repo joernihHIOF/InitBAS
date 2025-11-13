@@ -9,6 +9,9 @@ sudo pacman -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/pckfull.t
 #sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 #
 #### Yay
+yay -Syu --noconfirm
+yay         -S --noconfirm --needed --noconfirm - < ~/InitBAS/packages/yayfull.txt 2>/dev/null
+
 #if ! command -v yay &> /dev/null
 #then
 #    echo "yay not found. Installing yay..."
