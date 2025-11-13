@@ -3,8 +3,6 @@
 # sudo systemctl enable sshd.service
 # sudo systemctl start sshd.service
 # sudo systemctl status sshd.service
-# ~/.environBAS
-# source ~/InitBAS/init.sh
 
 # 01_config.sh
 # 02_symlin.sh
@@ -17,14 +15,11 @@
 
 # .git/config
 # config/bash/bashrc
-# config/zsh/zshrc
 # config/r/Rprofile 
 # config/hyprland/hyprland.conf
 # config/hyprland/hyprpaper.conf
 # config/hyprland/reload-hyprpaper.sh
 # config/hyprland/config.ini
-# config/nvim/init.vim
-# config/nvim/keymapping.vim
 # alias.sh
 # functions.sh
 
@@ -32,9 +27,4 @@
 # Hyprland
 # startplasma-wayland
 # startplasma-x11 
-
-# sudo visudo
-# Defaults timestamp_timeout=30
-# nvim +PlugInstall +qall
-
 

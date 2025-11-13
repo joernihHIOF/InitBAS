@@ -1,4 +1,4 @@
-if (!dir.exists(Sys.getenv("R_LIBS_USER"))) {
+1if (!dir.exists(Sys.getenv("R_LIBS_USER"))) {
   dir.create(Sys.getenv("R_LIBS_USER"), recursive = TRUE)
 }
 
