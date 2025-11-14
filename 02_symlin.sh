@@ -17,7 +17,8 @@
 # ln -sf config/hypr/looknfeel.conf              $HOME/.config/hypr/looknfeel.conf 
 # ln -sf config/hypr/monitors.conf               $HOME/.config/hypr/monitors.conf  
 ## Neovim
-ln -sf $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
+ln -sf $HOME/InitBAS/config/nvim/nvim/init.vim      $HOME/.config/nvim/init.vim
+#ln -sf $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
 ## Bash
 ln -sf $HOME/InitBAS/config/bash/bashrc        $HOME/.bashrc
 ## R
