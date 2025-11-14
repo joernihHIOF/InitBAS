@@ -20,14 +20,14 @@ let g:neoterm_repl_python = 'python3'
 let g:neoterm_autoscroll = 1
 let maplocalleader = ','
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" call plug#begin('~/.vim/plugged')
-"         Plug 'jalvesaq/vimcmdline'
-" 	Plug 'jalvesaq/Nvim-R'
-"         Plug 'lambdalisue/suda.vim'
-" 	Plug 'gaalcaras/ncm-R'
-"         Plug 'patstockwell/vim-monokai-tasty'
-"         Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
-" call plug#end()
+call plug#begin('~/.vim/plugged')
+        Plug 'jalvesaq/vimcmdline'
+	Plug 'jalvesaq/Nvim-R'
+        Plug 'lambdalisue/suda.vim'
+	Plug 'gaalcaras/ncm-R'
+        Plug 'patstockwell/vim-monokai-tasty'
+        Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
+call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " R configurations
 map rk :RKill<cr>
