@@ -1,10 +1,7 @@
-# [ ! -d etc/issue ] && sudo touch /etc/issue
 [ ! -d $HOME/.config/nvim ] && mkdir -p $HOME/.config/nvim 
 [ ! -d $HOME/.config/hypr ] && mkdir -p $HOME/.config/hypr 
 [ ! -d $HOME/.config/qtile ] && mkdir -p $HOME/.config/qtile 
-# sudo ln -sf $HOME/InitBAS/config/tty1/issue /etc/issue 
 
-#
 ## Hyprland
 # ln -sf config/hypr/autostart.conf              $HOME/.config/hypr/autostart.conf 
 # ln -sf config/hypr/bindings.conf               $HOME/.config/hypr/bindings.conf  
