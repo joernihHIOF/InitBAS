@@ -16,7 +16,7 @@
 # ln -sf config/hypr/monitors.conf               $HOME/.config/hypr/monitors.conf  
 ## Neovim
 ln -sf $HOME/InitBAS/config/nvim/vim/init.vim  $HOME/.config/nvim/vim/init.vim
-#ln -sf $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
+ln -sf $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
 ## Bash
 ln -sf $HOME/InitBAS/config/bash/bashrc         $HOME/.bashrc
 ## R
@@ -24,3 +24,5 @@ ln -sf $HOME/InitBAS/config/r/Rprofile          $HOME/.Rprofile
 # ln -sf $HOME/.environBAS                       $HOME/.Renviron
 
 
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
