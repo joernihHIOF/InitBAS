@@ -16,9 +16,6 @@
 # config/bash/bashrc
 # config/r/Rprofile 
 # config/hyprland/hyprland.conf
-# config/hyprland/hyprpaper.conf
-# config/hyprland/reload-hyprpaper.sh
-# config/hyprland/config.ini
 # alias.sh
 # functions.sh
 
