@@ -4,9 +4,9 @@
 [ ! -d $HOME/.config/qtile ] && mkdir -p $HOME/.config/qtile 
 
 ## Hyprland
-# ln -sf config/hypr/monitors.conf               $HOME/.config/hypr/monitors.conf  
+cp -f config/hypr/monitors.conf               $HOME/.config/hypr/monitors.conf  
+cp -f config/hypr/bindings.conf               $HOME/.config/hypr/bindings.conf  
 # ln -sf config/hypr/autostart.conf              $HOME/.config/hypr/autostart.conf 
-# ln -sf config/hypr/bindings.conf               $HOME/.config/hypr/bindings.conf  
 # ln -sf config/hypr/envs.conf                   $HOME/.config/hypr/envs.conf      
 # ln -sf config/hypr/hypridle.conf               $HOME/.config/hypr/hypridle.conf  
 # ln -sf config/hypr/hyprland.conf               $HOME/.config/hypr/hyprland.conf  
