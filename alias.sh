@@ -1,5 +1,5 @@
 # Init
-alias nvv="nvim -u $HOME/InitBAS/config/nvim/vim/init.vim"
+alias nvv="nvim $HOME/InitBAS/README.md -u $HOME/InitBAS/config/nvim/vim/init.vim"
 alias nvl="nvim $HOME/InitBAS/README.md -u $HOME/InitBAS/config/nvim/init.lua"
 alias t='tmux'
 alias z='zellij'
