@@ -5,7 +5,7 @@
 #sudo pacman -S plasma-wayland-session --needed
 ##
 ### Qtile
-sudo pacman -S qtile
+#sudo pacman -S qtile
 
 
 
