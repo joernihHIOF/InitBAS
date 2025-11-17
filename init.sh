@@ -13,14 +13,10 @@ pacman() {
 plinst() {
     Rscript $HOME/InitBAS/04_plinst.R
 }
-dsktop() {
-    source $HOME/InitBAS/05_dsktop.sh
-}
 updmacBAS() {
 	config
 	symlin
 	pacman
 	plinst
-	dsktop
 }
 

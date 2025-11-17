@@ -4,7 +4,6 @@
 # 02_symlin.sh
 # 03_pacman.sh
 # 04_plinst.R
-# 05_dsktop.sh
 
 # packages/pckfull.txt
 # packages/yayfull.txt

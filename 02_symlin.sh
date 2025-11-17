@@ -21,4 +21,5 @@ ln -sf $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
 ln -sf $HOME/InitBAS/config/bash/bashrc         $HOME/.bashrc
 ## R
 ln -sf $HOME/InitBAS/config/r/Rprofile          $HOME/.Rprofile
+
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'

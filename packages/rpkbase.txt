@@ -4,7 +4,6 @@ reticulate
 devtools
 readr
 reticulate
-devtools
 dplyr
 readr
 ellmer
