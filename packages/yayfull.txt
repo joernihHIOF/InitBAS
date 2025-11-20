@@ -1,6 +1,5 @@
 calibre
 chatgpt-shell-cli
-copyq
 gcc-fortran
 ghostwriter
 okular
@@ -12,4 +11,3 @@ wf-recorder
 xorg-xrandr
 xsel
 zen-browser-bin
-zsh
