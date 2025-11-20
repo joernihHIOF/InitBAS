@@ -10,9 +10,6 @@ for (pins in spack) {
   }                                                                  
 }                                                                    
 
-reticulate::py_require("numpy")
-reticulate::py_require("sympy")
-reticulate::py_require("pandas")
 
 
 
