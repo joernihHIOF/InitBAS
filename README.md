@@ -9,12 +9,11 @@
 # packages/yayfull.txt
 # packages/rpkbase.txt
 
+# config/nvim/init.lua      
 # config/hypr/monitors.conf   
 # config/hypr/bindings.conf  
 # config/bash/bashrc
 # config/r/Rprofile 
-# config/nvim/vim/init.vim  
-# config/nvim/init.lua      
 
 # alias.sh
 # functions.sh
