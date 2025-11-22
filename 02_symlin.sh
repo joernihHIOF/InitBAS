@@ -21,7 +21,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.v
 ## Neovim
 cp $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
 cp -r $HOME/InitBAS/config/nvim/lua/config    $HOME/.config/nvim/lua/config
-cp -r $HOME/InitBAS/config/nvim/lua/plugins   $HOME/.config/nvim/lua/plugins
+cp -r $HOME/InitBAS/config/nvim/lua/plugins   $HOME/.config/nvim/lua
 ### Bash
 cp $HOME/InitBAS/config/bash/bashrc         $HOME/.bashrc
 ### R
