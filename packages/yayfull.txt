@@ -11,3 +11,4 @@ wf-recorder
 xorg-xrandr
 xsel
 zen-browser-bin
+vim
