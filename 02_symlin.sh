@@ -20,7 +20,7 @@ cp $HOME/InitBAS/config/nvim/vim/keymapping.vim  $HOME/.config/nvim/vim/keymappi
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ## Neovim
 cp $HOME/InitBAS/config/nvim/init.lua      $HOME/.config/nvim/init.lua
-cp -r $HOME/InitBAS/config/nvim/lua/config    $HOME/.config/nvim/lua/config
+cp -r $HOME/InitBAS/config/nvim/lua/config    $HOME/.config/nvim/lua
 cp -r $HOME/InitBAS/config/nvim/lua/plugins   $HOME/.config/nvim/lua
 ### Bash
 cp $HOME/InitBAS/config/bash/bashrc         $HOME/.bashrc
