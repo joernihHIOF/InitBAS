@@ -26,4 +26,4 @@ cp -r $HOME/InitBAS/config/nvim/lua/plugins   $HOME/.config/nvim/lua/plugins
 cp $HOME/InitBAS/config/bash/bashrc         $HOME/.bashrc
 ### R
 cp $HOME/InitBAS/config/r/Rprofile          $HOME/.Rprofile
-#cp $HOME/.environBAS                        $HOME/.Renviron
+cp $HOME/.environBAS                        $HOME/.Renviron
